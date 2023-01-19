@@ -10,7 +10,10 @@ body {
 
 * {
   color: white;
-  font-family: sans-serif;
+  font-family: helveticaneue;
+  src: url(helveticaneue.woff);
+  font-weight: 55;
+  font-style: normal;
 }
 
 .row_1 p {
