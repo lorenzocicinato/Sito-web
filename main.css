@@ -104,15 +104,7 @@ a:hover {
 
   body {
     padding: 20px;
-    display: block;
     width: 100%;
-  }
-
-  .row_2 {
-    margin-top: 48vh;
-    position: absolute;
-    top: 0;
-    transform: translate(0, -50%);
   }
 
   .row_2 p.desktop {
@@ -132,7 +124,7 @@ a:hover {
   .row_3 {
     flex-direction: column;
     height: 5em;
-    position: fixed;
-    bottom: 30px;
+    width: 100%;
+    align-self: flex-end;
   }
 }
