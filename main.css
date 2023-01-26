@@ -118,6 +118,8 @@ a:hover {
   .row_2 > .cone {
     left: 45%;
     margin-top: -30px;
+    width: 320px;
+    height: 320px;
   }
 
   .row_3 {
