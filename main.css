@@ -37,9 +37,15 @@ body {
   text-align: left;
   margin-left: auto;
   margin-right: auto;
-  display: inline-flex;
   justify-content: space-around;
   width: 100%;
+}
+
+.row_2 p.desktop {
+  display: inline-flex;
+}
+.row_2 p.mobile {
+  display: none;
 }
 
 .row_2 > .cone {
@@ -71,12 +77,36 @@ a:hover {
   text-decoration: underline;
 }
 
-#QUERY MOBILE
-@media (min-width:680px) {
+
+
+
+@media screen and (max-width: 1080px) {
+  .row_2 p.desktop {
+    display: none!important;
+  }
+  .row_2 p.mobile {
+    display: inline-flex!important;
+  }
+  .row_2 > .cone {
+    left: 55%;
+    margin-top: 10px;
+  }
+}
+
+
+
+@media screen and (max-width: 680px) {
   :root {
     --fontsizeSmall: 16px;
     --fontsizeMedium: 22px;
     --fontsizeBig: 60px;
+  }
+
+  .row_2 p.desktop {
+    display: none!important;
+  }
+  .row_2 p.mobile {
+    display: inline-flex!important;
   }
 
   .row_3 {
