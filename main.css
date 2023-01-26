@@ -97,16 +97,22 @@ a:hover {
 
 @media screen and (max-width: 680px) {
   :root {
-    --fontsizeSmall: 16px;
-    --fontsizeMedium: 22px;
-    --fontsizeBig: 50px;
+    --fontsizeSmall: 12px;
+    --fontsizeMedium: 16px;
+    --fontsizeBig: 11vw;
   }
 
   body {
-    position: fixed;
+    padding: 20px;
+    display: block;
+    width: 100%;
+  }
+
+  .row_2 {
+    margin-top: 50vh;
+    position: absolute;
     top: 0;
-    left: 0;
-    overflow: hidden;
+    transform: translate(0, -50%);
   }
 
   .row_2 p.desktop {
@@ -116,14 +122,17 @@ a:hover {
     display: inline-flex!important;
   }
   .row_2 > .cone {
-    left: 45%;
-    margin-top: -30px;
-    width: 320px;
-    height: 320px;
+    right: -16%;
+    left: unset;
+    margin-top: -20px;
+    width: 70%;
+    height: auto;
   }
 
   .row_3 {
     flex-direction: column;
-    height: 6em;
+    height: 5em;
+    position: fixed;
+    bottom: 30px;
   }
 }
