@@ -99,7 +99,14 @@ a:hover {
   :root {
     --fontsizeSmall: 16px;
     --fontsizeMedium: 22px;
-    --fontsizeBig: 60px;
+    --fontsizeBig: 50px;
+  }
+
+  body {
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
   }
 
   .row_2 p.desktop {
@@ -107,6 +114,10 @@ a:hover {
   }
   .row_2 p.mobile {
     display: inline-flex!important;
+  }
+  .row_2 > .cone {
+    left: 45%;
+    margin-top: -30px;
   }
 
   .row_3 {
