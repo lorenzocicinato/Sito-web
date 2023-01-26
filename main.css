@@ -107,6 +107,9 @@ a:hover {
     overflow-x: hidden;
   }
 
+  .row_2 p {
+    width: auto;
+  }
   .row_2 p.desktop {
     display: none!important;
   }
