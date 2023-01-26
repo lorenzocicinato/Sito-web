@@ -119,6 +119,7 @@ a:hover {
     margin-top: -20px;
     width: 70%;
     height: auto;
+    position: fixed;
   }
 
   .row_3 {
