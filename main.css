@@ -9,9 +9,9 @@ body {
 }
 
 :root {
-  fontsizeSmall: 16px;
-  fontsizeMedium: 32px;
-  fontsizeBig: 100px;
+  --fontsizeSmall: 16px;
+  --fontsizeMedium: 32px;
+  --fontsizeBig: 100px;
 }
 
 * {
@@ -74,9 +74,9 @@ a:hover {
 #QUERY MOBILE
 @media (min-width:680px) {
   :root {
-    fontsizeSmall: 16px;
-    fontsizeMedium: 22px;
-    fontsizeBig: 60px;
+    --fontsizeSmall: 16px;
+    --fontsizeMedium: 22px;
+    --fontsizeBig: 60px;
   }
 
   .row_3 {
