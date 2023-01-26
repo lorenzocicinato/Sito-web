@@ -106,6 +106,7 @@ a:hover {
   body {
     padding: 20px;
     overflow-x: hidden;
+    height: 86vh;
   }
 
   .row_2 p {
